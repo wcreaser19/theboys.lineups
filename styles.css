@@ -1,9 +1,9 @@
 html {
-	background-color: gray;
+	background-color: rgb(44, 44, 44);
 }
 
 div{
-	background-color: slateblue;
+	background-color: rgb(33, 33, 33;
 	margin: auto;
 	width: 70%;
 	height:10%;
@@ -11,6 +11,7 @@ div{
 
 h1 {
 	text-align:center;
+	text-color: white;
 }
 
 img{
