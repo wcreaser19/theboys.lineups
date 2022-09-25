@@ -1,0 +1,20 @@
+html {
+	background-color: black;
+	color:white;
+}
+
+div{
+	background-color: darkblue;
+	margin: auto;
+	width: 80%;
+
+}
+
+h1 {
+	text-align:center;
+	
+}
+
+img{
+	width:99%
+}
