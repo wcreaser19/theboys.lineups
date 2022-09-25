@@ -36,4 +36,5 @@ button:hover{
 	padding: 5px;
 	background-color: rgb(20, 147, 186);
 	transition:0.5s;
+	cursor: pointer;
 }
