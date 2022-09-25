@@ -19,4 +19,4 @@ TO ADD NEW LINEUPS TO THE WEBSITE
 For each div representing a new lineup:
   5. Replace "Position" inbetween h1 with text describing the position and use of lineups (refer to other character.html files for examples)
   6. Replace "src.jpg" with the name of the .jpg file of the photo of the lineup
-7. Save your changes and you are done :)
+7. Save your changes and you are done
