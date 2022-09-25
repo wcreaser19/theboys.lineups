@@ -8,10 +8,10 @@ TO ADD NEW LINEUPS TO THE WEBSITE
     - Name them under the format Character_lineupIdentifier.jpg where Character is name of character and lineup identifier is a short description of use of lineup
     (Look at other .jpg files in the map folders for examples)
 4. Inside the CHARACTER_NAME.html file, copy and paste:
-          "<div>
+          (<div>
 	   <h1>Position<h1>
 	   <img src="src.jpg"></img>
-	   </div>"
+	   </div>)
    (which is found within the <body> (dont copy quotation marks)) as many times as you have lineup photos. So if you have 6 lineup photos, you need 6 separate <div>.
 For each <div> representing a new lineup:
   5. Replace "Position" inbetween <h1> with text describing the position and use of lineups (refer to other character.html files for examples)
