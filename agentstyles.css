@@ -3,7 +3,7 @@ html {
 	color:white;
 }
 
-div{
+div {
 	background-color: darkblue;
 	margin: auto;
 	width: 80%;
@@ -15,6 +15,9 @@ h1 {
 	
 }
 
-img{
+img {
 	width:99%;
 }
+iframe {
+	width:99%;
+	height:99%;
