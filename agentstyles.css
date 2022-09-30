@@ -7,13 +7,10 @@ div {
 	background-color: darkblue;
 	margin: auto;
 	width: 80%;
-	height: 180%;
-
 }
 
 h1 {
 	text-align:center;
-	
 }
 
 img {
@@ -21,5 +18,5 @@ img {
 }
 iframe {
 	width:99%;
-	height: 99%;
+	height: 1024px;
 )
