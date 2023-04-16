@@ -24,7 +24,7 @@ html {
 	background-color: rgb(33, 33, 33);
 	transition:0.5s;
 	display: inline-block;
-	border-radius: 30px;
+	border-radius: 10px;
 }
 
 #main_btn:hover{
