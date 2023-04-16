@@ -2,7 +2,7 @@ html {
 	background-color: rgb(44, 44, 44);
 }
 
-#val_div{
+.val_div{
 	background-color: rgb(33, 33, 33);
 	margin: auto;
 	width: 70%;
@@ -17,68 +17,179 @@ h1 {
 	color: GhostWhite;
 }
 
-#val_img{
+.val_img{
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
 }
 
-#val_button{
+.val_button{
 	padding: 2px;
 	margin-bottom:5px;
-	background-color: darkslateblue;
+	background-color: rgb(66, 66, 66);
 	transition:0.5s;
 	display: inline-block;
 	border-radius: 30px;
 }
 
-#val_button:hover{
-	padding: 5px;
-	background-color: rgb(20, 147, 186);
+.val_button:hover{
+	background-color: rgb(111, 111, 111);
 	transition:0.5s;
 	cursor: pointer;
 }
 
-#main_div{
+.main_div{
 	background-color: rgb(33, 33, 33);
+	margin: auto;
+	width: 70%;
+	height:35%;
+	border: 2px groove antiquewhite;
+	border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 4px;
+}
+
+.main_img{
+	width: 50%;
+	height: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main_btn{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(33, 33, 33);
+	transition:0.5s;
+	border-radius: 10px;
+    text-align: center;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main_btn:hover{
+	transition:0.5s;
+	cursor: pointer;
+}
+
+.main_img:hover{
+    transition: 0.5s;
+    opacity: 70%;
+}
+
+.main_body {
+    padding-top: 4%;
+}
+
+.agent_div {
+	background-color: rgb(38, 38, 38);
+	margin: auto;
+	width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 7px;
+    border: 3px groove antiquewhite;
+}
+
+.agent_img {
+	width:99%;
+}
+
+.agent_iframe {
+	width:99%;
+	height: 900px;
+}
+
+.cs_div {
+    background-color: rgb(33, 33, 33);
 	margin: auto;
 	width: 70%;
 	height:35%;
 	border: 2px solid black;
 	border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 7px;
 }
 
-#main_img{
-	width: 100%;
-	height: 300px;
+.cs_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 100%;
 }
 
-#main_btn{
-	padding: 2px;
-	margin-bottom:5px;
-	background-color: rgb(33, 33, 33);
+.cs_img:hover {
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.cs_btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(33, 33, 33);
 	transition:0.5s;
-	display: inline-block;
 	border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    border-width: 1px;
+    border-style: groove;
+    border-color: antiquewhite;
 }
 
-#main_btn:hover{
-	background-color: rgb(25, 25, 25);
+.cs_btn:hover{
 	transition:0.5s;
 	cursor: pointer;
 }
 
-#agent_div {
-	background-color: darkblue;
-	margin: auto;
-	width: 80%;
+.back_btn{
+    width: 4.5%;
+    height: 60px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    font-weight: 500;
+    border: 3px groove black;
+    border-radius: 8px;
+    background-color: rgb(121, 121, 121);
+    text-align: center;
 }
 
-#agent_img {
-	width:99%;
-}
-#agent_iframe {
-	width:99%;
-	height: 900px;
+.back_btn:hover {
+    transition:0.5s;
+	cursor: pointer;
+    opacity: 70%;
 }
 
+#val_back {
+    height: 30px;
+    font-size: 16px;
+}
+
+.agent_back {
+    height: 35px;
+    width: 4%;
+    font-size: 16px;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    border: 3px groove black;
+    border-radius: 8px;
+    background-color: rgb(102, 101, 101);
+    text-align: center;
+}
+
+.agent_back:hover {
+    transition:0.5s;
+	cursor: pointer;
+    opacity: 70%;
+}
