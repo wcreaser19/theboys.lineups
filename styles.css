@@ -2,7 +2,7 @@ html {
 	background-color: rgb(44, 44, 44);
 }
 
-div{
+#main_div{
 	background-color: rgb(33, 33, 33);
 	margin: auto;
 	width: 70%;
@@ -12,13 +12,13 @@ div{
 	margin-bottom: 0.5%;
 }
 
-img{
+#main_img{
 	width: 100%;
 	height: 100%;
 	border-radius: 25px;
 }
 
-button{
+#main_btn{
 	padding: 2px;
 	margin-bottom:5px;
 	background-color: rgb(33, 33, 33);
@@ -27,8 +27,7 @@ button{
 	border-radius: 30px;
 }
 
-button:hover{
-	padding: 5px;
+#main_btn:hover{
 	background-color: rgb(25, 25, 25);
 	transition:0.5s;
 	cursor: pointer;
