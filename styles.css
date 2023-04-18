@@ -122,12 +122,16 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: antiquewhite;
     width: 100%;
 }
 
 .cs_img:hover {
     opacity: 70%;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .cs_btn {
@@ -136,30 +140,30 @@ h1 {
     margin-right: auto;
     background-color: rgb(33, 33, 33);
 	transition:0.5s;
-	border-radius: 10px;
     text-align: center;
+    border-width: 0px;
     height: 100%;
-    border-width: 1px;
-    border-style: groove;
-    border-color: antiquewhite;
+    width: 100%;
 }
 
-.cs_btn:hover{
-	transition:0.5s;
-	cursor: pointer;
+.cs_link {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .back_btn{
-    width: 4.5%;
-    height: 60px;
+    width: 82px;
+    height: 32px;
     margin-left: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 500;
-    border: 3px groove black;
-    border-radius: 8px;
-    background-color: rgb(121, 121, 121);
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
     text-align: center;
 }
 
@@ -169,22 +173,17 @@ h1 {
     opacity: 70%;
 }
 
-#val_back {
-    height: 30px;
-    font-size: 16px;
-}
-
 .agent_back {
-    height: 35px;
-    width: 4%;
-    font-size: 16px;
+    height: 32px;
+    width: 82px;
+    font-size: 15px;
     margin-left: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
     font-weight: 500;
-    border: 3px groove black;
-    border-radius: 8px;
-    background-color: rgb(102, 101, 101);
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
     text-align: center;
 }
 
