@@ -2,6 +2,19 @@ html {
 	background-color: rgb(44, 44, 44);
 }
 
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('Bahnschrift.eot');
+    src: url('Bahnschrift.eot?#iefix') format('embedded-opentype'),
+        url('Bahnschrift.woff2') format('woff2'),
+        url('Bahnschrift.woff') format('woff'),
+        url('Bahnschrift.ttf') format('truetype'),
+        url('Bahnschrift.svg#Bahnschrift') format('svg');
+    font-weight: bold;
+    font-stretch: condensed;
+    font-display: swap;
+}
+
 .val_div{
 	background-color: rgb(33, 33, 33);
 	margin: auto;
@@ -15,6 +28,14 @@ html {
 h1 {
 	text-align:center;
 	color: GhostWhite;
+    font-family: 'Bahnschrift';
+    font-size: 500%;
+}
+
+h2 {
+    text-align:center;
+	color: GhostWhite;
+    font-family: 'Bahnschrift';
 }
 
 .val_img{
@@ -191,4 +212,48 @@ h1 {
     transition:0.5s;
 	cursor: pointer;
     opacity: 70%;
+}
+
+.map_div {
+    background-color: rgb(33, 33, 33);
+	margin: auto;
+    width: 70%;
+	height:60%;
+	border: 2px solid black;
+	border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 7px;
+}
+
+.map_vid {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.map_img {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.map_title_div {
+    background-color: rgb(33, 33, 33);
+	margin: auto;
+    width: 70%;
+	height:60%;
+	border: 2px solid black;
+	border-radius: 10px;
+    margin-top: 64px;
+    margin-bottom: 24px;
 }
