@@ -4,16 +4,171 @@
 	<head>
 		<title>The Boys Counter Strike Lineups</title>
 		<link rel="stylesheet" href="styles.css">
-		<!--Stop browser from putting page in cache so new updates load-->
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js" defer></script>
 	</head> 
 
     <body class="cs_body">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="menuClose()">&times;</a>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">ANCIENT</button>
+                <div class="dropdown-container">
+                    <h4>ANCIENT MIDDLE</h4>
+                    <a href="ancient/ancient.html#mid">MID SMOKE</a>
+                    <h4>ANCIENT A</h4>
+                    <a href="ancient/ancient.html#a_window">WINDOW SMOKE</a>
+                    <a href="ancient/ancient.html#a_ct">CT SMOKE</a>
+                    <h4>ANCIENT B</h4>
+                    <a href="ancient/ancient.html#b_alley">ALLEY SMOKE</a>
+                    <a href="ancient/ancient.html#b_stairs">STAIRS SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">ANUBIS</button>
+                <div class="dropdown-container">
+                    <h4>ANUBIS MIDDLE</h4>
+                    <a href="anubis/anubis.html#mid">MID SMOKE</a>
+                    <a href="anubis/anubis.html#mid_canals">CANALS SMOKE</a>
+                    <h4>ANUBIS A</h4>
+                    <a href="anubis/anubis.html#a_window">WINDOW SMOKE</a>
+                    <a href="anubis/anubis.html#a_ct">CT SMOKE</a>
+                    <h4>ANUBIS B</h4>
+                    <a href="anubis/anubis.html#b_alley">ALLEY SMOKE</a>
+                    <a href="anubis/anubis.html#b_ct">CT SMOKE</a>
+                    <a href="anubis/anubis.html#b_canals">CANALS SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">CACHE</button>
+                <div class="dropdown-container">
+                    <a href="cache/cache.html">NO CACHE MOMENT</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">DUST II</button>
+                <div class="dropdown-container">
+                    <h4>DUST II MIDDLE</h4>
+                    <a href="dust2/dust2.html#xbox">XBOX SMOKE</a>
+                    <a href="dust2/dust2.html#lower">LOWER SMOKE</a>
+                    <a href="dust2/dust2.html#mid2b">MID -> B SMOKE</a>
+                    <h4>DUST II A</h4>
+                    <a href="dust2/dust2.html#long_corner">LONG CORNER SMOKE</a>
+                    <a href="dust2/dust2.html#long_cross">LONG CROSS SMOKE</a>
+                    <a href="dust2/dust2.html#short2ct">A -> CT SMOKE</a>
+                    <h4>DUST II B</h4>
+                    <a href="dust2/dust2.html#b_ct">CT SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">INFERNO</button>
+                <div class="dropdown-container">
+                    <h4>INFERNO MIDDLE</h4>
+                    <a href="inferno/inferno.html#mid">MID SMOKE</a>
+                    <a href="inferno/inferno.html#mid_cross">MID CROSS SMOKE</a>
+                    <a href="inferno/inferno.html#mid_molly">ALT MID WINDOW MOLOTOV</a>
+                    <h4>INFERNO A</h4>
+                    <a href="inferno/inferno.html#arches">A ARCHES SMOKE</a>
+                    <a href="inferno/inferno.html#library">A LIBRARY SMOKE</a>
+                    <h4>INFERNO B</h4>
+                    <a href="inferno/inferno.html#ct">B CT SMOKE</a>
+                    <a href="inferno/inferno.html#coffins">B COFFINS SMOKE</a>
+                    <a href="inferno/inferno.html#1box">1st BOX MOLOTOV</a>
+                    <a href="inferno/inferno.html#2box">2nd BOX MOLOTOV</a>
+                    <a href="inferno/inferno.html#new_box">NEW BOX MOLOTOV</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">MIRAGE</button>
+                <div class="dropdown-container">
+                    <h4>MIRAGE MIDDLE</h4>
+                    <a href="mirage/mirage.html#window">MID WINDOW SMOKE</a>
+                    <a href="mirage/mirage.html#mid_connector">MID CONNECTOR SMOKE</a>
+                    <a href="mirage/mirage.html#cat">MID CATWALK SMOKE</a>
+                    <h4>MIRAGE A</h4>
+                    <a href="mirage/mirage.html#a_ct">A CT SMOKE</a>
+                    <a href="mirage/mirage.html#a_stairs">A STAIRS SMOKE</a>
+                    <a href="mirage/mirage.html#a_jandc">A JUNGLE + CONNECTOR SMOKE</a>
+                    <a href="mirage/mirage.html#a_jungle">A JUNGLE SMOKE</a>
+                    <h4>MIRAGE B</h4>
+                    <a href="mirage/mirage.html#bench">B BENCH SMOKE</a>
+                    <a href="mirage/mirage.html#b_window">B MARKET WINDOW SMOKE</a>
+                    <a href="mirage/mirage.html#market">B MARKET SMOKE</a>
+                    <a href="mirage/mirage.html#arches">B ARCHES SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">NUKE</button>
+                <div class="dropdown-container">
+                    <h4>NUKE OUTSIDE</h4>
+                    <a href="nuke/nuke.html#outside_cross">OUTSIDE CROSS SMOKE</a>
+                    <a href="nuke/nuke.html#secret1">SECRET CROSS SMOKE CLOSE</a>
+                    <a href="nuke/nuke.html#secret2">SECRET CROSS SMOKE FAR</a>
+                    <a href="nuke/nuke.html#warehouse">WAREHOUSE SMOKE</a>
+                    <h4>NUKE A</h4>
+                    <a href="nuke/nuke.html#heaven">A HEAVEN SMOKE</a>
+                    <a href="nuke/nuke.html#mini">A MINI SMOKE</a>
+                    <a href="nuke/nuke.html#rafters">A RAFTERS MOLOTOV</a>
+                    <a href="nuke/nuke.html#top_hut">A TOP HUT MOLOTOV</a>
+                    <h4>NUKE B</h4>
+                    <a href="nuke/nuke.html#dark">B DARK MOLOTOV</a>
+                    <a href="nuke/nuke.html#decon">B DECON CROSS SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">OVERPASS</button>
+                <div class="dropdown-container">
+                    <h4>OVERPASS A</h4>
+                    <a href="overpass/overpass.html#bathrooms">A BATHROOMS SMOKE</a>
+                    <a href="overpass/overpass.html#bank">A BANK SMOKE</a>
+                    <a href="overpass/overpass.html#dumpster">A DUMPSTER SMOKE</a>
+                    <a href="overpass/overpass.html#fountain">A FOUNTAIN MOLOTOV</a>
+                    <h4>OVERPASS B</h4>
+                    <a href="overpass/overpass.html#squeaky">B SQUEAKY SMOKE</a>
+                    <a href="overpass/overpass.html#heaven_tspawn">T-SPAWN -> B HEAVEN SMOKE</a>
+                    <a href="overpass/overpass.html#heaven_water">WATER -> B HEAVEN SMOKE</a>
+                    <a href="overpass/overpass.html#b">B SITE SMOKE</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropdown-btn">VERTIGO</button>
+                <div class="dropdown-container">
+                    <h4>VERTIGO MIDDLE</h4>
+                    <a href="vertigo/vertigo.html#sandbags_mid">MID SANDBAGS SMOKE/MOLOTOV</a>
+                    <a href="vertigo/vertigo.html#mid_left">TOP LEFT MID SMOKE</a>
+                    <a href="vertigo/vertigo.html#mid_right">TOP RIGHT MID SMOKE</a>
+                    <a href="vertigo/vertigo.html#mid">TOP MID SMOKE</a>
+                    <h4>VERTIGO A</h4>
+                    <a href="vertigo/vertigo.html#yellow">A YELLOW SMOKE</a>
+                    <a href="vertigo/vertigo.html#a">A SITE SMOKE</a>
+                    <a href="vertigo/vertigo.html#boost">A BOOST SMOKE</a>
+                    <a href="vertigo/vertigo.html#headshot">A HEADSHOT MOLOTOV</a>
+                    <a href="vertigo/vertigo.html#ramp">A RAMP SMOKE</a>
+                    <h4>VERTIGO B</h4>
+                    <a href="vertigo/vertigo.html#b_ct">B CT SMOKE</a>
+                    <a href="vertigo/vertigo.html#sandbags_b">B SANDBAGS SMOKE</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="floating-button-div">
+			<button class="fb" onclick="menuOpen()">MENU</button>
+		</div>
         <a href="index.html">
             <button class="back_btn">BACK</button>
         </a>
+        
         <div class="cs_div">
             <a href="ancient/ancient.html" class="cs_link">
                 <button class="cs_btn">
