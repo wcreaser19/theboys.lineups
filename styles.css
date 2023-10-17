@@ -342,6 +342,18 @@ h4 {
     font-family: 'Bahnschrift';
     transition: 0.5s;
   }
+
+  .sidenav a {
+    font-size: 13px;
+  }
+
+  .dropdown-map {
+    font-size: 20px !important;
+  }
+
+  .dropdown-site {
+    font-size: 16px !important;
+  }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover, .dropdown-btn:hover {
